@@ -1,0 +1,61 @@
+PODS:
+  - contacts_service (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - geolocator (1.7.0):
+    - Flutter
+  - permission_handler (2.2.0):
+    - Flutter
+  - shared_preferences (0.0.1):
+    - Flutter
+  - sqflite (0.0.1):
+    - Flutter
+    - FMDB (~> 2.7.2)
+  - url_launcher (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - contacts_service (from `.symlinks/plugins/contacts_service/ios`)
+  - Flutter (from `.symlinks/flutter/ios-release`)
+  - geolocator (from `.symlinks/plugins/geolocator/ios`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
+  - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+  - url_launcher (from `.symlinks/plugins/url_launcher/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FMDB
+
+EXTERNAL SOURCES:
+  contacts_service:
+    :path: ".symlinks/plugins/contacts_service/ios"
+  Flutter:
+    :path: ".symlinks/flutter/ios-release"
+  geolocator:
+    :path: ".symlinks/plugins/geolocator/ios"
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
+  shared_preferences:
+    :path: ".symlinks/plugins/shared_preferences/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+  url_launcher:
+    :path: ".symlinks/plugins/url_launcher/ios"
+
+SPEC CHECKSUMS:
+  contacts_service: 9687dbab0d9e392c0270c77899c5592842dc6f90
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  geolocator: 2c191ec99972d2685eb84e5f0dcfce3cd0d94620
+  permission_handler: 976a8a94c3443d23fe33c11e98277d471f0e543d
+  shared_preferences: 1feebfa37bb57264736e16865e7ffae7fc99b523
+  sqflite: ff1d9da63c06588cc8d1faf7256d741f16989d5a
+  url_launcher: 0067ddb8f10d36786672aa0722a21717dba3a298
+
+PODFILE CHECKSUM: 7765ea4305eaab0b3dfd384c7de11902aa3195fd
+
+COCOAPODS: 1.6.0
