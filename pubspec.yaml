@@ -1,0 +1,58 @@
+name: acms
+description: Advanced Contacts Managment System
+version: 1.56+56
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  flutter_redux: ^0.5.2
+  redux_thunk: ^0.2.0
+  rxdart: ^0.18.1
+  shared_preferences: ^0.4.2
+  geolocator: ^3.0.0
+  flutter_map: ^0.1.1
+  contacts_service: ^0.0.8
+  url_launcher: ^3.0.3
+  intl: ^0.15.7
+  sqflite: ^0.12.0
+  permission_handler: ^3.0.0
+  google_api_availability: ^2.0.0
+  http: ^0.12.0+1
+  fluttertoast: ^7.1.8
+  connectivity_plus: ^0.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/ic__success.png
+    - assets/images/ic__error.png
+    - assets/images/logo.png
+
+    - assets/images/ic__vip.png
+    - assets/images/google_logo.png
+
+    - assets/images/map_normal.png
+    - assets/images/map_sattelite.png
+    - assets/images/map_terrain.png
+
+  fonts:
+    - family: NotoSans
+      fonts:
+        - asset: assets/fonts/NotoSansSC-DemiLight.otf
+          weight: 300
+        - asset: assets/fonts/NotoSansSC-Regular.otf
+          weight: 400
+        - asset: assets/fonts/NotoSansSC-Medium.otf
+          weight: 500
+        - asset: assets/fonts/NotoSansSC-Bold.otf
+          weight: 700
